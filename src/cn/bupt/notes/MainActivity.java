@@ -1,5 +1,6 @@
 package cn.bupt.notes;
 
+import android.R.integer;
 import android.app.ListActivity;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -51,5 +52,6 @@ public class MainActivity extends ListActivity {
     private SimpleCursorAdapter adapter = null;
     private NotesDB db;
     private SQLiteDatabase dbRead;
+    private integer test;
     
 }
